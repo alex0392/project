@@ -49,7 +49,7 @@ app.use(function(req,res,next){
 })
 
 
-app.use(express.static(path.join(__dirname, 'public')));// указывает статичные файлы находятся в папке public(стили, скрипты, img)
+app.use(express.static(path.join(__dirname, 'public')));// указывает статичные файлы находятся в папке public(стили, скрипты, img)//
 
 
 
