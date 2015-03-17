@@ -1,0 +1,9 @@
+.column{
+	display:inline-block;
+	
+}
+
+.column img{
+	height:40%;
+	width:40%;
+}

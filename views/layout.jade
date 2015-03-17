@@ -1,0 +1,50 @@
+doctype html
+html
+  head
+    title Главная
+    meta(charset='UTF-8')
+    meta(name='description', content='Мой сайт курсов JS')
+    for script in scripts
+      link(href='#{script}',type='text/script')
+    for style in styles
+      link(href='#{style}',rel='stylesheet',type='text/css')
+  body
+    #header
+      a.logoink(href='#')
+        img.logo(src='images/logo.png')
+      h1  Alfa-romeo
+    .menutop
+      a(href='/')  Главная
+      a(href='/history')  История марки
+      a(href='/models')  Модели
+      a(href='/gelery')  Галерея
+      a(href='/reg')  Регистрация
+      a(href='/cabinet')  Личный кабинет
+    .col-md-2
+      #title-menu Модели "альф"
+      a.btn.btn-primary(href='/model-145') alfa-romeo 145
+      a.btn.btn-primary(href='/model-146') alfa-romeo 146
+      a.btn.btn-primary(href='/model-147') alfa-romeo 147
+      a.btn.btn-primary(href='/model-155') alfa-romeo 155
+      a.btn.btn-primary(href='/model-156') alfa-romeo 156
+      a.btn.btn-primary(href='/model-159') alfa-romeo 159
+    .col-md-8
+        block content
+    .col-md-2
+      | Погода
+      table(style=' width:100%;background-color:#f2f2f2; border: #cccccc 1px solid; font-family:Tahoma; font-size:12px; color:#000000;', cellpadding='2', cellspacing='0')
+        tr
+          td
+            a(href='http://6.pogoda.by/26850', style='font-family:Tahoma; font-size:12px; color:#003399;', title='Погода Минск на 6 дней - Гидрометцентр РБ', target='_blank') Погода Минск
+        tr
+          td
+            table(width='100%', height='100%', style='background-color:#f2f2f2; font-family:Tahoma; font-size:12px; color:#000000;', cellpadding='0', cellspacing='0')
+              tr
+                td
+                  script(type='text/javascript', charset='windows-1251', src='http://pogoda.by/meteoinformer/js/26850_3.js')
+        tr
+          td(align='right')
+            | Информация сайта 
+            a(href='http://www.pogoda.by', target='_blank', style='font-family:Tahoma; font-size:12px; color:#003399;') pogoda.by
+    #footer
+      #develop Романов Александр

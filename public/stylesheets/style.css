@@ -1,0 +1,123 @@
+.UserID{
+	font-weight:bold;
+	color:red;
+}
+
+.UserIDtext{
+float:left;
+color:blue;
+
+}
+
+@font-face {
+    font-family: Pompadur2; /* Имя шрифта */
+    src: url(../images/ds3vi2op.ttf); /* Путь к файлу со шрифтом */
+}  
+
+@font-face {
+    font-family: Pompadur1; /* Имя шрифта */
+    src: url(../images//rHUJFJ4n.ttf); /* Путь к файлу со шрифтом */
+} 
+
+#header{
+	height:150px;
+    background: url('../images/big_11430.jpg'); 
+	box-shadow: -5px 0 15px #2C335F;
+}
+
+.logo{
+	float:left;
+	margin:30px 0 0 40px;
+}
+
+#header h1{
+    float:right;
+    margin:50px 50px 0 0;
+    font-family:tahoma;
+    color:#fff;
+}
+
+body{
+	margin: 0;
+	padding:0;
+	background-color:#E1E1E1;
+    
+}
+.menutop{
+	width:100%;
+	display:-moz-box;
+	display:-web-kit;
+	display:flex;
+	text-align:center;
+	margin:10px auto;
+	flex-direction:row;
+}
+.menutop a{
+	-moz-box:1;
+	-webkit-flex:1;
+	flex:1;
+	display:block;
+	font-size:14pt;
+	padding:7px 10px;
+	text-align:center;
+	color:#111;
+	text-decoration:none;
+	margin-bottom:50px;
+}
+
+.menutop a:hover{
+	color:#fff;
+	background:#cd0800;
+}
+
+#title-menu{
+    font-size: 16pt;   
+    font-family: Pompadur2; 
+    margin-bottom: 10px;
+}
+.btn{
+	width:100%;
+}
+
+.col-md-2 a{
+	margin-bottom:10px;
+}
+
+.col-md-8 h2{
+    text-align: center;
+    font-family: Pompadur1;
+
+    margin-top:0;
+}
+
+.col-md-8{
+    margin-bottom: 120px;
+	min-height:400px;
+}
+.maintext{
+    border:2px solid    #1D2341;
+    border-radius:10px;
+    min-height: 400px;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px #535353;
+}
+
+#footer{
+
+	height:30px;
+	width:100%;
+	float:left;
+    background: url('../images/big_11430.jpg'); 
+	box-shadow: -5px 0 15px #2C335F;    
+}
+
+
+#develop{
+	float:right;
+	width:100%;
+	margin-top:5px;
+	min-width:220px;
+    text-align:right;
+    color:#fff;
+    padding-right: 50px;
+}

@@ -1,0 +1,7 @@
+extends layout
+block content
+   form(method="post" , action="/reg")
+      input(type='text' name='login' placeholder='Введите имя пользователя..')
+      input(type='text' name='password' placeholder='Введите пароль..')
+      input(type='submit' value='ok')
+    a(href='logout') exit

@@ -1,0 +1,15 @@
+{
+"scripts":["javascripts/script.js"],
+"styles":["bootstrap/css/bootstrap.min.css","stylesheets/style.css"],
+"port":3000,
+"mongoose":{
+	"uri":"mongodb://localhost/project",
+	"options":{
+			"server":{
+				"socketOptions":{
+				"KeepAlive":1
+				}
+				}
+		}
+}
+}
